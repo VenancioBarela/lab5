@@ -39,18 +39,21 @@ return dict
 
 main()
 """
-
+#This method kickstarts  the app
+# it creates a dictionary and fires off the translate method
 def main():
     sentence = input("Enter a sentence:")
     dictionary = create_dictionary("textese.txt")
     translate(sentence, dictionary)
 
+# this method create a dictionary based off of a text file given in the parameter
 def create_dictionary(txt_file):
     infile = open(txt_file, "r")
     words = [word.rstrip() for word in infile]
     infile.close()
     return dict([word.split(",") for word in words])
 
+# This method translate the user input based off of the dictionary
 def translate(sentence, dictionary):
     words = sentence.split() 
     for word in words:
