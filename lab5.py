@@ -17,6 +17,5 @@ in our dictionary.
 
 after each word is translated, we then
 print out the translated sentence to the user.
-
 """
 
