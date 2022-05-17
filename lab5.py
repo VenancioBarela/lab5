@@ -19,3 +19,23 @@ after each word is translated, we then
 print out the translated sentence to the user.
 """
 
+"""
+main():
+set sentence = input()
+set dictionary = create dictionary()
+translate(sentence, dictionary)
+
+translate(sentence, dictionary):
+words = for each word in the sentence
+for each words, translate the word
+print translated sentence to user
+
+create dictionary():
+read in textese.txt
+create list = each line from file
+close the file
+create a dict off of the list
+return dict
+
+main()
+"""
